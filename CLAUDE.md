@@ -37,12 +37,13 @@ No build step. No dependencies. Edit the JSON, reload VS Code (`Developer: Reloa
 | Decision | Choice |
 |---|---|
 | Theme count | Single `Operator Dark` — no variants |
-| Layers | All three: workbench colors, TextMate tokenColors, semantic tokens |
+| Layers | All three: workbench colors, TextMate tokenColors, minimal semantic tokens |
 | Diff approach | Theme-only (no companion extension), teal-green adds / warm coral deletes |
 | ANSI terminal | Faithful to design palette, not stock-saturated |
 | Italics | Comments only |
 | Bracket colors | Custom: teal → amber → purple → type-blue |
-| AL tokens | Semantic overrides for property/method/field (sage green `#B7D6A6` for `member:al`) |
+| Semantic approach | Explicit semantic entries for `function`, `method`, `builtinfunctions` (+ AL variants), `decorator`, `comment`, `member:al`. Bypasses TextMate fallback for critical token types to avoid scope-suffix matching issues with AL extension |
+| AL tokens | Sage green `#8CB87E` for `member:al` field references |
 | Packaging | Local-only — no marketplace publisher yet |
 
 ## Colorblind safety rule
@@ -57,19 +58,18 @@ No build step. No dependencies. Edit the JSON, reload VS Code (`Developer: Reloa
 | `--nf-sidebar` | `#131D29` | Sidebar, panels, tab bar |
 | `--nf-editor` | `#182433` | Editor background |
 | `--nf-titlebar` / `--nf-status` | `#111B26` | Title bar, status bar |
-| `--nf-fg` | `#D0DCE7` | Primary foreground |
+| `--nf-fg` | `#D0DCE7` | Primary foreground (also variables, parameters, properties) |
 | `--nf-fg-mute` | `#94A3B5` | Muted text |
 | `--nf-fg-faint` | `#6B7989` | Faint text, line numbers |
 | `--nf-fg-bright` | `#ECF2F8` | Bright / active foreground |
-| `--nf-teal` | `#6CC9C7` | Primary accent |
-| `--nf-amber` | `#DEB071` | Secondary accent, strings |
-| `--nf-keyword` | `#BAA1E0` | Keywords, storage |
-| `--nf-ctrl` | `#CC9DD8` | Control flow |
-| `--nf-fn` | `#88D8D8` | Functions, methods |
+| `--nf-teal` | `#6CC9C7` | Primary UI accent (links, focus, decorators) |
+| `--nf-amber` | `#DEB071` | Strings |
+| `--nf-keyword` | `#9B7FD4` | Keywords, storage |
+| `--nf-ctrl` | `#C9A6E8` | Control flow |
+| `--nf-fn` | `#E8B49B` | Functions, methods, tags (warm peach) |
 | `--nf-type` | `#95BFE0` | Types, classes |
-| `--nf-prop` | `#E2B999` | Properties |
-| `--nf-field` | `#B7D6A6` | AL fields (sage green) |
-| `--nf-num` | `#E5BC81` | Numbers, constants |
+| `--nf-field` | `#8CB87E` | AL fields (sage green) |
+| `--nf-num` | `#F0D0A0` | Numbers, constants |
 | `--nf-comment` | `#74849A` | Comments (italic) |
 | `--nf-error` | `#E89A95` | Errors, deletions |
 | `--nf-warn` | `#DEB071` | Warnings |
