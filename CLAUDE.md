@@ -56,13 +56,13 @@ No build step. No dependencies. Edit the JSON, reload VS Code (`Developer: Reloa
 |---|---|---|
 | `--nf-activity` | `#0F1822` | Activity bar |
 | `--nf-sidebar` | `#131D29` | Sidebar, panels, tab bar |
-| `--nf-editor` | `#182433` | Editor background |
+| `--nf-editor` | `#121C28` | Editor background |
 | `--nf-titlebar` / `--nf-status` | `#111B26` | Title bar, status bar |
-| `--nf-fg` | `#D0DCE7` | Primary foreground (default text) |
+| `--nf-fg` | `#ECF2F8` | Primary foreground (default text) |
 | `--nf-var` | `#B5C2D0` | Variables, parameters, properties (slate blue) |
 | `--nf-fg-mute` | `#94A3B5` | Muted text |
 | `--nf-fg-faint` | `#6B7989` | Faint text, line numbers |
-| `--nf-fg-bright` | `#ECF2F8` | Bright / active foreground |
+| `--nf-fg-bright` | `#F5F9FC` | Bright / active foreground |
 | `--nf-teal` | `#6CC9C7` | Primary UI accent (links, focus, decorators) |
 | `--nf-amber` | `#DEB071` | Strings |
 | `--nf-keyword` | `#9B7FD4` | Keywords, storage |
