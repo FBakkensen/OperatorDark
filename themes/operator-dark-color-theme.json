@@ -340,7 +340,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#D0DCE7"
+        "foreground": "#B5C2D0"
       }
     },
     {
@@ -360,7 +360,7 @@
         "support.type.property-name"
       ],
       "settings": {
-        "foreground": "#D0DCE7"
+        "foreground": "#B5C2D0"
       }
     },
     {
@@ -452,7 +452,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#D0DCE7"
+        "foreground": "#B5C2D0"
       }
     },
     {
@@ -463,7 +463,7 @@
         "support.type.property-name.less"
       ],
       "settings": {
-        "foreground": "#D0DCE7"
+        "foreground": "#B5C2D0"
       }
     },
     {

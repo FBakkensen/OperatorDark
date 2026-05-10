@@ -42,8 +42,8 @@ No build step. No dependencies. Edit the JSON, reload VS Code (`Developer: Reloa
 | ANSI terminal | Faithful to design palette, not stock-saturated |
 | Italics | Comments only |
 | Bracket colors | Custom: teal → amber → purple → type-blue |
-| Semantic approach | Explicit semantic entries for `function`, `method`, `builtinfunctions` (+ AL variants), `decorator`, `comment`, `member:al`. Bypasses TextMate fallback for critical token types to avoid scope-suffix matching issues with AL extension |
-| AL tokens | Sage green `#8CB87E` for `member:al` field references |
+| Semantic approach | Explicit semantic entries for `function`, `method`, `builtinfunctions` (+ AL variants), `decorator`, `comment`, `variable:al`, `property:al`, `enumMember:al`. Bypasses TextMate fallback for critical token types to avoid scope-suffix matching issues with AL extension |
+| AL tokens | Sage green `#8CB87E` for `variable:al` (field references), `property:al`, `enumMember:al`, and TextMate `identifier.quoted.double.al` (covers quoted enum values like `::"All Customers"`) |
 | Packaging | Local-only — no marketplace publisher yet |
 
 ## Colorblind safety rule
@@ -58,7 +58,8 @@ No build step. No dependencies. Edit the JSON, reload VS Code (`Developer: Reloa
 | `--nf-sidebar` | `#131D29` | Sidebar, panels, tab bar |
 | `--nf-editor` | `#182433` | Editor background |
 | `--nf-titlebar` / `--nf-status` | `#111B26` | Title bar, status bar |
-| `--nf-fg` | `#D0DCE7` | Primary foreground (also variables, parameters, properties) |
+| `--nf-fg` | `#D0DCE7` | Primary foreground (default text) |
+| `--nf-var` | `#B5C2D0` | Variables, parameters, properties (slate blue) |
 | `--nf-fg-mute` | `#94A3B5` | Muted text |
 | `--nf-fg-faint` | `#6B7989` | Faint text, line numbers |
 | `--nf-fg-bright` | `#ECF2F8` | Bright / active foreground |
