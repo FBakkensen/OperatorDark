@@ -1,0 +1,21 @@
+{
+  "name": "operator-dark",
+  "displayName": "Operator Dark",
+  "description": "A calm, navy-charcoal editor theme designed for long coding sessions. Desaturated, contrast-first syntax palette with restrained teal and amber accents.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Operator Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/operator-dark-color-theme.json"
+      }
+    ]
+  }
+}
