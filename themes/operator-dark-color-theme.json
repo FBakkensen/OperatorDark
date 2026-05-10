@@ -620,6 +620,15 @@
       "settings": {
         "foreground": "#DEB071"
       }
+    },
+    {
+      "name": "AL quoted identifiers (fields, quoted enum values)",
+      "scope": [
+        "identifier.quoted.double.al"
+      ],
+      "settings": {
+        "foreground": "#8CB87E"
+      }
     }
   ],
 
@@ -635,6 +644,8 @@
       "foreground": "#74849A",
       "fontStyle": "italic"
     },
-    "member:al": "#8CB87E"
+    "variable:al": "#8CB87E",
+    "property:al": "#8CB87E",
+    "enumMember:al": "#8CB87E"
   }
 }
