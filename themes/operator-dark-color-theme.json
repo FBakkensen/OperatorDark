@@ -19,6 +19,9 @@
     "titleBar.inactiveForeground": "#6B7989",
     "titleBar.border": "#FFFFFF0D",
 
+    "menubar.selectionBackground": "#0B121C",
+    "menubar.selectionForeground": "#F5F9FC",
+
     "activityBar.background": "#0F1822",
     "activityBar.foreground": "#F5F9FC",
     "activityBar.inactiveForeground": "#6B7989",
@@ -38,10 +41,13 @@
     "list.activeSelectionForeground": "#F5F9FC",
     "list.inactiveSelectionBackground": "#6CC9C71A",
     "list.inactiveSelectionForeground": "#ECF2F8",
-    "list.hoverBackground": "#FFFFFF06",
+    "list.hoverBackground": "#6CC9C71A",
+    "list.hoverForeground": "#F5F9FC",
     "list.highlightForeground": "#6CC9C7",
     "list.focusBackground": "#6CC9C71A",
     "list.focusForeground": "#F5F9FC",
+    "list.filterMatchBackground": "#DEB07140",
+    "list.filterMatchBorder": "#00000000",
 
     "tree.indentGuidesStroke": "#FFFFFF14",
 
@@ -158,6 +164,13 @@
     "dropdown.foreground": "#ECF2F8",
     "dropdown.listBackground": "#0B121C",
 
+    "menu.background": "#0B121C",
+    "menu.foreground": "#ECF2F8",
+    "menu.selectionBackground": "#6CC9C780",
+    "menu.selectionForeground": "#F5F9FC",
+    "menu.separatorBackground": "#FFFFFF14",
+    "menu.border": "#FFFFFF14",
+
     "button.background": "#4A9897",
     "button.foreground": "#0B121C",
     "button.hoverBackground": "#6CC9C7",
@@ -217,6 +230,16 @@
     "quickInput.background": "#0B121C",
     "quickInput.foreground": "#ECF2F8",
     "quickInputList.focusBackground": "#6CC9C71A",
+    "quickInputList.focusForeground": "#F5F9FC",
+    "quickInputList.focusIconForeground": "#F5F9FC",
+
+    "pickerGroup.foreground": "#6CC9C7",
+    "pickerGroup.border": "#FFFFFF14",
+
+    "keybindingLabel.background": "#FFFFFF0A",
+    "keybindingLabel.foreground": "#94A3B5",
+    "keybindingLabel.border": "#FFFFFF14",
+    "keybindingLabel.bottomBorder": "#FFFFFF0D",
 
     "notificationCenter.border": "#FFFFFF14",
     "notifications.background": "#0B121C",
