@@ -1,0 +1,11 @@
+.claudedesign/**
+.vscode/**
+.git/**
+.gitignore
+.vscodeignore
+CLAUDE.md
+logo.png
+node_modules/**
+**/.DS_Store
+**/Thumbs.db
+*.vsix

@@ -3,12 +3,34 @@
   "displayName": "Operator Dark",
   "description": "A calm, navy-charcoal editor theme designed for long coding sessions. Desaturated, contrast-first syntax palette with restrained teal and amber accents.",
   "version": "0.1.0",
+  "publisher": "fbakkensen",
+  "license": "MIT",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.80.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "dark",
+    "navy",
+    "colorblind"
+  ],
+  "galleryBanner": {
+    "color": "#121C28",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fbakkensen/OperatorDark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fbakkensen/OperatorDark/issues"
+  },
+  "homepage": "https://github.com/fbakkensen/OperatorDark#readme",
   "contributes": {
     "themes": [
       {
