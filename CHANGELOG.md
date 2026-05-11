@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0 — 2026-05-11
+
+- Extensions panel themed. Install / Manage buttons reuse the workbench `button.*` family (primary teal `#4A9897` with full teal hover), remote badge picks up `badge.background`, verified-publisher icon uses teal (trust), pre-release and rating-star icons use amber, sponsor heart uses coral. Previously the prominent Install button rendered in the default green that fought the rest of the palette.
+- Run & Debug view themed with a tri-color state vocabulary. Toolbar actions use teal for forward motion (play, step, restart, start), amber for pause, coral for stop, muted grey for disconnect. Breakpoints render in coral for active, muted for disabled and unverified, teal for the current stack frame position. Exception and state labels reuse the `inputValidation.*` pill pattern (25% alpha tint over the surface, bright matching foreground). Variable inspector tokens reuse the editor's syntax token colors via `debugTokenExpression.*`.
+- Source Control commit graph branch lines use the bracket-pair cycle plus coral as the fifth: teal, amber, soft-purple, type-blue, coral. Same five-color rhythm the eye already learns from editor brackets, applied to the SCM graph. `scmGraph.historyItem*` hover surfaces reuse the established additions-green and deletions-coral.
+- Sidebar drop indicator (`sideBar.dropBackground`) themed with the standard 10% teal hover tint. Sticky scroll (`sideBarStickyScroll.*`) blends with the sidebar surface `#131D29` with a subtle border underneath; deliberately not lifted to the popup `#0B121C` surface because sticky scroll is persistent navigation, not a dismissable popup.
+- Inactive tree indent guides themed at `#FFFFFF08`, slightly fainter than the active `#FFFFFF14` already in use.
+
 ## 0.3.0 — 2026-05-11
 
 - Menus join the popup-surface family. New keys for `menu.*` and `menubar.selection*` so the File / Edit / View dropdowns now use the same `#0B121C` floating-panel surface as the command palette, suggest widget, hover widget, notifications, and peek view. Previously menus fell back to VS Code defaults.
