@@ -113,9 +113,9 @@
     "editorHoverWidget.background": "#0B121C",
     "editorHoverWidget.border": "#FFFFFF14",
 
-    "diffEditor.insertedLineBackground": "#002030FF",
+    "diffEditor.insertedLineBackground": "#0B2A38FF",
     "diffEditor.insertedTextBackground": "#00000000",
-    "diffEditor.removedLineBackground": "#3D0808FF",
+    "diffEditor.removedLineBackground": "#350707FF",
     "diffEditor.removedTextBackground": "#00000000",
     "diffEditorGutter.insertedLineBackground": "#00000000",
     "diffEditorGutter.removedLineBackground": "#00000000",
