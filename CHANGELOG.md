@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.6.0 — 2026-05-11
+
+- GitHub Copilot Chat panel expanded coverage. Sourced from current VS Code source (`chatColors.ts`, `sessions/common/theme.ts`, `inlineChat.ts`) since chat is heavily developed and many keys are newer than the initial pass.
+- Request bubble background and hover background (`chat.requestBubbleBackground`, `chat.requestBubbleHoverBackground`) tinted teal (6%, 12%). User messages get a quiet teal hint without competing with content.
+- Lines-added / lines-removed pills in chat code summaries (`chat.linesAddedForeground`, `chat.linesRemovedForeground`) use the diff-add green `#88D8AE` and coral `#E89A95` pair, instead of the default `#54B054 / #FC6A6A` which violate the colorblind rule.
+- Thinking shimmer (`chat.thinkingShimmer`) tinted teal so the in-flight indicator reads as the established active-accent color, not the default pure white.
+- Animated input border colors during in-flight requests (`chat.inputWorkingBorderColor1/2/3`) form a teal pulse: button-teal base, darker variant, brighter variant.
+- Checkpoint separator (`chat.checkpointSeparator`) uses the widget border `#FFFFFF14`.
+- Inline chat overview-ruler and minimap markers (`editorOverviewRuler.inlineChatInserted/Removed`, `editorMinimap.inlineChatInserted/Removed`, `minimap.chatEditHighlight`) tinted with the diff-add green and coral so pending AI edits show consistently in the ruler and minimap.
+- Agent sessions window (the newer multi-agent UI) themed: shell (`agents.background`), panel cards (`agentsPanel.*`), gradient tint, chat input field, New Session button, badges, unread badge, read indicator, and selected and unfocused badge borders. All values inherit established conventions from `sideBar`, `editor`, `button`, `input`, and `badge` families.
+- Titlebar agent status indicator (`agentStatusIndicator.background`) at 5% white. Explicitly named so the value survives any future change to VS Code's default mapping.
+
 ## 0.5.0 — 2026-05-11
 
 - Editor sticky scroll themed (`editorStickyScroll.*`). Function and class headers that stick at the top of the editor when scrolling deep blend with the editor surface `#121C28` and gain a subtle border underneath.
