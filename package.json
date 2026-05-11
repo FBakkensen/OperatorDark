@@ -2,7 +2,7 @@
   "name": "operator-dark",
   "displayName": "Operator Dark",
   "description": "A calm, navy-charcoal editor theme designed for long coding sessions. Desaturated, contrast-first syntax palette with restrained teal and amber accents.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "fbakkensen",
   "license": "MIT",
   "icon": "icon.png",
@@ -38,6 +38,9 @@
         "uiTheme": "vs-dark",
         "path": "./themes/operator-dark-color-theme.json"
       }
+    ],
+    "markdown.previewStyles": [
+      "./themes/markdown-preview.css"
     ]
   }
 }
