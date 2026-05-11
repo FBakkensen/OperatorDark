@@ -28,6 +28,7 @@ Three rules drive every color choice.
 - **AL / Business Central tuning** — sage-green fields, properties, enum members, and quoted identifiers (e.g. `::"All Customers"` highlights correctly).
 - **Custom bracket pair colors** — teal → amber → purple → type-blue.
 - **Italic comments only.**
+- **Markdown preview styled to match** — body surfaces, headings, links, tables, blockquotes, and code-block chrome track the theme via VS Code CSS variables.
 
 ## Color palette
 
