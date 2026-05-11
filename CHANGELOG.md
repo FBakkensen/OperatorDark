@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.5.0 — 2026-05-11
+
+- Editor sticky scroll themed (`editorStickyScroll.*`). Function and class headers that stick at the top of the editor when scrolling deep blend with the editor surface `#121C28` and gain a subtle border underneath.
+- Snippet tabstops use the teal focus accent. Active placeholders show 10% teal fill with a 25% teal border, final tabstops are fainter, same focus semantic as the cursor.
+- Lightbulb code-action icons mapped to three semantics: amber for the standard lightbulb, diff-add green `#88D8AE` for auto-fix (safe to apply), and teal for AI-suggested fixes (distinct accent for AI-flavored actions).
+- Banner (deprecation strips, untrusted-workspace prompts, etc.) themed as a quiet amber pill: 25% amber background, bright foreground, amber icon.
+- Panel polish: `panel.dropBorder`, `panelTitle.border`, `panelSection.*`, `panelSectionHeader.*`, and `panelStickyScroll.*` now on-theme. Ports view running-process icon uses the diff-add green.
+- Terminal extras: selection background matches the editor's teal selection, find-match uses the editor's amber find color, `terminalCommandDecoration.successBackground/errorBackground` follow the diff-add green / coral colorblind-safe pair instead of the default red/green. Terminal tab active border uses teal.
+- GitHub Copilot surfaces themed. Ghost text (inline suggestions) renders in faint `#6B7989` to stay clearly distinct from committed code. Inline chat joins the popup family at `#0B121C` with teal focus border and subtle inline-diff tint (15% teal-green inserted, 15% coral removed). Chat panel slash commands render as teal pills via `chat.slashCommand*`, edited-file indicators use amber.
+
 ## 0.4.0 — 2026-05-11
 
 - Extensions panel themed. Install / Manage buttons reuse the workbench `button.*` family (primary teal `#4A9897` with full teal hover), remote badge picks up `badge.background`, verified-publisher icon uses teal (trust), pre-release and rating-star icons use amber, sponsor heart uses coral. Previously the prominent Install button rendered in the default green that fought the rest of the palette.
