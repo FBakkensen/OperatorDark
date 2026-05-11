@@ -7,7 +7,7 @@ A VS Code color theme extension. Navy-charcoal surfaces, desaturated contrast-fi
 ## Project structure
 
 ```
-package.json                              — Extension manifest (local-only, no publisher)
+package.json                              — Extension manifest (publisher `fbakkensen`, published to VS Code Marketplace)
 themes/operator-dark-color-theme.json     — The theme (workbench + tokenColors + semanticTokenColors)
 .claudedesign/                            — Source design from Claude Design (gitignored)
 ```
@@ -44,7 +44,7 @@ No build step. No dependencies. Edit the JSON, reload VS Code (`Developer: Reloa
 | Bracket colors | Custom: teal → amber → purple → type-blue |
 | Semantic approach | Explicit semantic entries for `function`, `method`, `builtinfunctions` (+ AL variants), `decorator`, `comment`, `variable:al`, `property:al`, `enumMember:al`. Bypasses TextMate fallback for critical token types to avoid scope-suffix matching issues with AL extension |
 | AL tokens | Sage green `#8CB87E` for `variable:al` (field references), `property:al`, `enumMember:al`, and TextMate `identifier.quoted.double.al` (covers quoted enum values like `::"All Customers"`) |
-| Packaging | Local-only — no marketplace publisher yet |
+| Packaging | VS Code Marketplace, publisher `fbakkensen`, released since 0.2.0. Local install via the junction in "How to install locally" still works for development |
 
 ## Colorblind safety rule
 
@@ -84,4 +84,3 @@ The `.claudedesign/` folder (gitignored) contains the original Claude Design exp
 
 - Companion extension for colorblind-friendly diff decorations (glyph markers, pattern fills)
 - Theme variants (Darker, Warm)
-- Marketplace publishing (publisher ID, icon, README, screenshots)
